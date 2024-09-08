@@ -1,0 +1,16 @@
+# For Jetbrains IDEs
+*.egg-info
+.idea
+
+# For Visual Studio Code
+.vscode
+
+# For python virtualenv
+venv
+
+# For CMake
+cmake-build-*
+
+# Don't upload weight file to git
+*.pt
+*.onnx
