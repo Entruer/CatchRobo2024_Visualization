@@ -21,7 +21,7 @@ setup(
     license='Apache-2.0',
     entry_points={
         'console_scripts': [
-            'tray_management = ' + package_name + '.Main:main',
+            'tray_management = ' + package_name + '.main:main',
         ],
     },
 )

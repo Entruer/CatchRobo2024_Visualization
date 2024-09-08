@@ -1,5 +1,5 @@
-<library path="src">
-    <class name="TrayManagement" type="tray_management.tray_management.TrayManagement" base_class_type="rqt_gui_py::Plugin">
+<library path="tray_management">
+    <class name="TrayManagementPlugin" type="tray_management.tray_management.TrayManagement" base_class_type="rqt_gui_py::Plugin">
         <description>
             A Python GUI plugin for CatchRobo2024 tray management.
         </description>
