@@ -1,0 +1,17 @@
+<library path="src">
+    <class name="TrayManagement" type="tray_management.tray_management.TrayManagement" base_class_type="rqt_gui_py::Plugin">
+        <description>
+            A Python GUI plugin for CatchRobo2024 tray management.
+        </description>
+        <qtgui>
+            <group>
+                <label>CatchRobo2024</label>
+                <icon type="theme">folder</icon>
+                <statustip>Plugins related to CatchRobo2024</statustip>
+            </group>
+            <label>Tray Management</label>
+            <icon type="theme">media-playback-start</icon>
+            <statustip>A Python GUI plugin for CatchRobo2024 tray management.</statustip>
+        </qtgui>
+    </class>
+</library>
