@@ -1,0 +1,1 @@
+from rqt_gui_py import plugin
